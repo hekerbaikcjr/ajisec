@@ -6,7 +6,7 @@ import { ThemeProvider } from "@/components/theme-provider"
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Extract APK Data",
+  title: "AJISEC",
   description: "View AndroidManifest, resources, and assets from APK files",
 };
 
@@ -36,9 +36,7 @@ export default function RootLayout({
                 ❤️
               </span>{" "}
               by{" "}
-              <a
-                className="underline"
-                href="https://github.com/bagusindrayana/">Dev</a>
+              <a>Fazriansyah</a>
             </p>
           </footer>
         </ThemeProvider>

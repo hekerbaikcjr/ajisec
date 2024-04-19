@@ -251,17 +251,17 @@ export default function Home() {
     <div className="w-full py-12 height-content">
       <div className="container flex flex-col gap-4 px-4 md:px-6">
         <div className="grid gap-2">
-          <h1 className="text-3xl font-bold">Extract Data</h1>
+          <h1 className="text-3xl font-bold">Ekstrak Data</h1>
           <p className="max-w-[800px] text-gray-500 md:text-base/relaxed dark:text-gray-400">
-            Upload APK file to extract the data. all process is done in client side, no data will be sent to server.
+          Unggah file APK untuk mengekstrak data. semua proses dilakukan di sisi klien, tidak ada data yang akan dikirim ke server.
           </p>
           <p>
-            please be aware of the file size,max file size is 50MB, but recomended file size is less than 20MB or your browser will freeze or crash.
+          Harap perhatikan ukuran file, ukuran file maksimum adalah 50MB, tetapi ukuran file yang disarankan kurang dari 20MB atau browser Anda akan macet atau macet.
           </p>
         </div>
 
         <div className="grid gap-2">
-          <h3 className="text-lg font-bold">Example APK</h3>
+          <h3 className="text-lg font-bold">Contoh APK</h3>
           <div className="grid gap-2 md:grid-cols-3">
             {
               exampleApks.map((apk, index) => {

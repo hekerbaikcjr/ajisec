@@ -200,7 +200,7 @@ export default function ScamApkPage() {
         <div className="w-full py-12 height-content">
             <div className="container flex flex-col gap-4 px-4 md:px-6">
                 <div className="grid gap-2">
-                    <h1 className="text-3xl font-bold">Extract Spam APK</h1>
+                    <h1 className="text-3xl font-bold">Ekstrak Spam APK</h1>
                     <p className="max-w-[800px] text-gray-500 md:text-base/relaxed dark:text-gray-400">
                         Upload APK file to extract the data. all process is done in client side, no data will be sent to server.
                     </p>

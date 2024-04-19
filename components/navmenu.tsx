@@ -40,7 +40,7 @@ export default function NavMenu() {
         <div className="flex justify-between items-center bg-gray-800 p-4">
             <div className="flex items-center">
 
-                <h1 className="text-2xl text-white">Extract APK Data</h1>
+                <h1 className="text-2xl text-white">AJI SECURITY</h1>
 
             </div>
 
@@ -56,9 +56,7 @@ export default function NavMenu() {
                     </a>
                 ))}
                 
-                <a className="mx-2" href="https://github.com/bagusindrayana/extract-apk-web">
-                    <FaGithub className="text-white text-2xl" />
-                </a>
+                
                 <DropdownMenu>
                     <DropdownMenuTrigger asChild>
                         <Button variant="outline" size="icon" id="changeThemeMobile">
@@ -97,9 +95,7 @@ export default function NavMenu() {
                             ))}
                             <MenubarSeparator />
                             <MenubarItem>
-                                <a className="mx-1 flex" href="https://github.com/bagusindrayana/extract-apk-web">
-                                    <FaGithub className="text-2xl mx-2" /> <span>Repository</span>
-                                </a>
+
                             </MenubarItem>
                             <MenubarItem>
                                 <div className="flex mx-1 content-center items-center align-middle">
